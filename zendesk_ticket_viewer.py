@@ -81,7 +81,7 @@ def getAllTickets(tickets_posts = None):
             if specify == 'return':
                 return
             numbers = specify.split()
-            if len(numbers) is not 5:
+            if len(numbers) != 5:
                 print(" Please only type in 5 numbers")
                 continue
             for num in numbers:
