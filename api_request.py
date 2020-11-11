@@ -13,7 +13,7 @@ def makeRequest(credentials = None):
     response = session.get(url)
     if response.status_code != 200:
         print('Error with status code {}'.format(response.status_code))
-        print('The API is unavailabl.')
+        print('The API is unavailable.')
         exit()
     data = response.json()   
     return data
