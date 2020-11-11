@@ -5,8 +5,8 @@ Katherine Fu
 
 ## Usage: 
 #### 1. Open the terminal and go to the directory where all the files are included
-#### 2. Type in ```python main_program.py``` and wait for a second to run the ticket viewer program
-#### 3. Type in ```python tests.py``` to run all the unit tests
+#### 2. Type in ```python3 main_program.py``` and wait for a second to run the ticket viewer program
+#### 3. Type in ```python3 tests.py``` to run all the unit tests
 When "okay" shows on the command window, it means all the tests are passed.
 
 
